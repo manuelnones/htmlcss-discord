@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+#container-1{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* nav-bar */
+#container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+    background-color: blue;
+
+}
+
+#nav-elements ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    list-style-type:none;
+    height: 50px;
+}
+
+#nav-elements ul li{
+    width: 40px;
+    height: 20px;
+    background-color: brown;
+}
+
+
+#container-nav #logo{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+
+}
+
+
+#container-nav #nav-elements{
+    border: 1px solid black;
+    width: 350px;
+    height: 50px;
+    background-color: aqua;
+    
+}
+
+
+#container-nav #login-button{
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    
+}
+/* /nav-bar */
+
+#container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    background-color: blue;
+}
+
+#container-heading{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 300px;
+}
+
+#container-heading .title{
+    width: 70%;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+#container-heading #header-text{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(110, 137, 160);
+}
+
+#container-heading #download-buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+#container-heading #download-buttons #button-1{
+    background-color: aquamarine;
+    height: 50%;
+    width: 30%;
+    margin-right: 10px;
+
+}
+
+#container-heading #download-buttons #button-2{
+    background-color: black;
+    height: 50%;
+    width: 40%;
+    margin-left: 10px; 
+}
+/* /header */
+
+/* main */
+/* section-1 */
+
+#container-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+#container-3 #study-group-image{
+    width: 40%;
+    height: 60%;
+    background-color: brown;
+}
+
+#container-3 #study-group-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+}
+
+
+#container-3 #study-group-text .subtitle{
+    width: 90%;
+    height: 60%;
+    background-color: blueviolet;
+}
+
+#container-3 #study-group-text .text{
+    width: 90%;
+    height: 30%;
+    background-color: rgb(43, 125, 226);
+}
+/* /section-1 */
+
+/* section-2 */
+
+#container-4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+#container-4 #friends-voice-image{
+    width: 40%;
+    height: 60%;
+    background-color: brown;
+}
+
+#container-4 #friends-voice-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+}
+
+
+#container-4 #friends-voice-text .subtitle{
+    width: 90%;
+    height: 30%;
+    background-color: blueviolet;
+}
+
+#container-4 #friends-voice-text .text{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(43, 125, 226);
+}
+/* /section-2 */
+
+/* section-3 */
+
+#container-5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+#container-5 #channels-image{
+    width: 40%;
+    height: 60%;
+    background-color: brown;
+}
+
+#container-5 #channels-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 60%;
+}
+
+
+#container-5 #channels-text .subtitle{
+    width: 90%;
+    height: 30%;
+    background-color: blueviolet;
+}
+
+#container-5 #channels-text .text{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(43, 125, 226);
+}
+/* /section-3 */
+
+/* section-4 */
+#container-6{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#container-6 .title{
+    margin: auto;
+    width: 80%;
+    height: 50px;
+    background-color: red;
+}
+
+#container-6 .text{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 50px;
+    background-color: orangered;
+}
+
+#container-6 #video-call-image{
+    margin: auto;
+    margin-top: 60px;
+    width: 90%;
+    height: 300px;
+    background-color: darkorange;
+
+}
+
+#container-6 .title-2{
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    height: 40px;
+    background-color: red;
+
+}
+
+#container-6 #button-download-for-mac{
+    margin: auto;
+    margin-top: 40px;
+    width: 20%;
+    height: 40px;
+    background-color: lightblue;
+
+}
+/* /section-4 */
+
+/* footer */
+footer{
+    background-color: #23272a;
+}
+
+#container-7{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+#container-7 .container-left{
+    width: 20%;
+    height: 250px;
+    background-color: black;
+
+}
+
+#container-7 .container-right{
+    flex-grow: 1;
+    background-color: gray;
+    display: flex;
+}
+
+#container-7 .container-right .container-list{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#container-7 .container-right .container-list ul{
+    list-style-type: none;
+
+}
+
+#container-8{
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer-bottom{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer-bottom #container-footer-logo{
+    background-color: yellowgreen;
+    width: 150px;
+    height: 30px;
+
+}
+
+footer-bottom #container-footer-button{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 30px;
+}
+/* /footer */
