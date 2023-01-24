@@ -271,14 +271,29 @@ footer{
 
 #container-7 .container-left{
     width: 20%;
-    height: 250px;
-    background-color: black;
+}
 
+#container-7 .container-left .subtitle-footer{
+    color: #6e86d8;
+}
+
+#container-7 .container-left #italy-flag{
+    width: 20px;
+    height: 15px;
+}
+
+#container-7 .container-left #language{
+    padding-top: 10px;
+    color: white;
+}
+
+#container-7 .container-left #logos-sites{
+    padding-top: 10px;
+    color: white;
 }
 
 #container-7 .container-right{
     flex-grow: 1;
-    background-color: gray;
     display: flex;
 }
 
@@ -290,12 +305,26 @@ footer{
 
 #container-7 .container-right .container-list ul{
     list-style-type: none;
+}
 
+#container-7 .container-right .container-list ul li{
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+#container-7 .container-right .container-list ul .title-link{
+    color: #6e86d8;
 }
 
 #container-8{
     max-width: 1000px;
     margin: auto;
+}
+
+#container-8 #separe-row{
+    margin-top: 30px;
+    border: 0.5px solid #6e86d8;
+
 }
 
 footer-bottom{
@@ -306,15 +335,14 @@ footer-bottom{
 }
 
 footer-bottom #container-footer-logo{
-    background-color: yellowgreen;
-    width: 150px;
     height: 30px;
-
 }
 
 footer-bottom #container-footer-button{
-    background-color: yellowgreen;
-    width: 100px;
+    border-radius: 30px;
+    width: 80px;
     height: 30px;
+    color: white;
+    background-color: #7279da;
 }
 /* /footer */
